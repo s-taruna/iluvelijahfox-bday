@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Happy Birthday</title>
+    <!-- main body style sheet-->
+    <link rel="stylesheet" href="style.css" />
+    <!-- style sheet for balloons-->
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <h1 class="title">Happy Birthday Ronny!</h1>
+        <p class="subtitle">
+          You've now traveled around the sun 21 times :0 I hope this year treats you even better than the last &#10084;
+        </p>
+      </header>
+
+      <section class="carousel-section">
+        <div class="carousel" aria-label="Photo carousel">
+          <div class="carousel-track">
+            <!-- Replace src with your own photos (e.g. images/photo1.jpg) -->
+            <div class="slide">
+              <img
+                src="images/photo1.jpg"
+                alt="Photo 1"
+                onerror="this.src=''; this.classList.add('placeholder')"
+              />
+              <span class="placeholder-label">Your photo 1</span>
+            </div>
+            <div class="slide">
+              <img
+                src="images/photo2.jpg"
+                alt="Photo 2"
+                onerror="this.src=''; this.classList.add('placeholder')"
+              />
+              <span class="placeholder-label">Your photo 2</span>
+            </div>
+            <div class="slide">
+              <img
+                src="images/photo3.jpg"
+                alt="Photo 3"
+                onerror="this.src=''; this.classList.add('placeholder')"
+              />
+              <span class="placeholder-label">Your photo 3</span>
+            </div>
+            <div class="slide">
+              <img
+                src="images/photo4.jpg"
+                alt="Photo 4"
+                onerror="this.src=''; this.classList.add('placeholder')"
+              />
+              <span class="placeholder-label">Your photo 4</span>
+            </div>
+            <div class="slide">
+              <img
+                src="images/photo5.jpg"
+                alt="Photo 5"
+                onerror="this.src=''; this.classList.add('placeholder')"
+              />
+              <span class="placeholder-label">Your photo 5</span>
+            </div>
+            <div class="slide">
+              <img
+                src="images/photo6.jpg"
+                alt="Photo 6"
+                onerror="this.src=''; this.classList.add('placeholder')"
+              />
+              <span class="placeholder-label">Your photo 6</span>
+            </div>
+            <div class="slide">
+              <img
+                src="images/photo7.jpg"
+                alt="Photo 7"
+                onerror="this.src=''; this.classList.add('placeholder')"
+              />
+              <span class="placeholder-label">Your photo 7</span>
+            </div>
+            <!-- Duplicates for seamless infinite scroll -->
+            <div class="slide">
+              <img
+                src="images/photo1.jpg"
+                alt="Photo 1"
+                onerror="this.src=''; this.classList.add('placeholder')"
+              />
+              <span class="placeholder-label">Your photo 1</span>
+            </div>
+            <div class="slide">
+              <img
+                src="images/photo2.jpg"
+                alt="Photo 2"
+                onerror="this.src=''; this.classList.add('placeholder')"
+              />
+              <span class="placeholder-label">Your photo 2</span>
+            </div>
+            <div class="slide">
+              <img
+                src="images/photo3.jpg"
+                alt="Photo 3"
+                onerror="this.src=''; this.classList.add('placeholder')"
+              />
+              <span class="placeholder-label">Your photo 3</span>
+            </div>
+            <div class="slide">
+              <img
+                src="images/photo4.jpg"
+                alt="Photo 4"
+                onerror="this.src=''; this.classList.add('placeholder')"
+              />
+              <span class="placeholder-label">Your photo 4</span>
+            </div>
+            <div class="slide">
+              <img
+                src="images/photo5.jpg"
+                alt="Photo 5"
+                onerror="this.src=''; this.classList.add('placeholder')"
+              />
+              <span class="placeholder-label">Your photo 5</span>
+            </div>
+            <div class="slide">
+              <img
+                src="images/photo6.jpg"
+                alt="Photo 6"
+                onerror="this.src=''; this.classList.add('placeholder')"
+              />
+              <span class="placeholder-label">Your photo 6</span>
+            </div>
+            <div class="slide">
+              <img
+                src="images/photo7.jpg"
+                alt="Photo 7"
+                onerror="this.src=''; this.classList.add('placeholder')"
+              />
+              <span class="placeholder-label">Your photo 7</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="envelope-section">
+        <div
+          class="envelope-wrapper"
+          id="envelope"
+          role="button"
+          tabindex="0"
+          aria-expanded="false"
+          aria-label="Open or close letter"
+          title="Click to open or close the letter"
+        >
+          <div class="envelope-popup">
+            <div class="envelope">
+              <div class="envelope-body"></div>
+              <div class="envelope-flap"></div>
+              <div class="envelope-stamp" aria-hidden="true">
+                <span class="stamp-heart" aria-hidden="true">♥</span>
+              </div>
+            </div>
+            <div class="letter">
+              <div class="letter-inner">
+                <p class="letter-greeting">Dear Pookie,</p>
+                <p>
+                  I'm so happy to be able to spend another year with you! I've known you for what, like 5 years now or something? I have watched you grow into a new person and I'm so proud of you. Keep growing and continue to be a considerate and amazing person. You are truly an blessing to have in my life. I hope this year brings you more good memories and happiness. I can't wait to celebrate with you for many more years
+                </p>
+                <p>With love, Taruna</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>made with love (ෆ˙ᵕ˙ෆ)♡</p>
+      </footer>
+    </div>
+
+    <div class="balloons">
+      <img src="images/balloon.png" alt="balloon">
+      <img src="images/balloon2.png" alt="balloon2">
+      <img src="images/balloon3.png" alt="balloon3">
+      <img src="images/balloon4.png" alt="balloon4">
+      <img src="images/balloon5.png" alt="balloon5">
+      <img src="images/balloon6.png" alt="balloon6">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="app.js"></script>
+
+    <script>
+      (function () {
+        var wrapper = document.getElementById("envelope");
+        if (!wrapper) return;
+        function toggle() {
+          var open = wrapper.getAttribute("aria-expanded") === "true";
+          wrapper.setAttribute("aria-expanded", !open);
+          wrapper.classList.toggle("open", !open);
+          document.body.classList.toggle("envelope-modal-open", !open);
+        }
+        wrapper.addEventListener("click", toggle);
+        wrapper.addEventListener("keydown", function (e) {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            toggle();
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>
